@@ -450,6 +450,7 @@ section {
 
 .img-fluid {
   border-radius: 12px;
+  opacity: 0.85;
 }
 
 .pfp-icon {
