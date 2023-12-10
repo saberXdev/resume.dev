@@ -430,13 +430,9 @@ section {
   padding: 10px 0;
 }
 
-.about .mantra {
-  font-weight: 400;
-}
-
 .fun-facts {
   font-weight: 500;
-  color: #656e78;
+  color: #878a8d;
 }
 
 .img-fluid {
@@ -446,7 +442,7 @@ section {
 
 .pfp-icon {
   font-size: 2em;
-  color: #bdc0c2;
+  color: #878a8d;
 }
 
 .about img {
@@ -460,6 +456,10 @@ section {
 
 .about .col-lg-4 {
   padding: 0;
+}
+
+.about p {
+  font-weight: 500;
 }
 
 /*--------------------------------------------------------------
