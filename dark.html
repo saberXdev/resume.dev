@@ -90,13 +90,11 @@
             <p class="mantra">I strive to build software so good that users don't feel they have one more product, simply one less problem.</p>
             <p>
               I'm a self-taught software engineer with 2 years of hands-on experience in building scalable and 
-              responsive web applications. Proficient in both front-end and back-end technologies, 
-              I specialize in leveraging <b>React + Typescript</b> to create dynamic user interfaces and 
-              <b>Node.js + Express</b> to develop robust server-side components. Prior to taking a leap of faith to
-              become a full stack developer(committing 1000+ hours to bootcamps, live tutorials, and a whole lot of
-              debugging through substantial literary exploration), I led a vigorous career as a web and UI / UX designer.
-              Hence the name Saber X, which signifies "cross"-capabilities in software development and product design for 
-              creating killer-app features. 
+              responsive web applications leveraging both front-end and back-end technologies with <b>React + Typescript</b> 
+              for creating dynamic user interfaces and <b>Node.js + Express</b> via <b>RESTful APIs</b> to develop robust server-side components. 
+              Prior to taking a leap of faith to become a full stack developer(committing 1000+ hours to bootcamps, live tutorials, 
+              and a whole lot of debugging through substantial documentation + literary exploration), I led a vigorous career as a web and UI / UX designer.
+              Hence the name Saber X, which signifies "cross"-capabilities in software development and product design for creating killer-app features. 
             </p>
             <p>
               As I continue my journey in tech, I aim to further expand and build upon my skills 
@@ -210,7 +208,7 @@
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="zoom-in">
+      <div class="container">
 
         <div class="section-title">
           <h2>Web Apps</h2>
@@ -221,8 +219,13 @@
         <div class="container">
           <div class="row shrink">
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4 aos-init aos-animate" data-aos="zoom-in">
-              <div class="card card-size rounded-4 p-4">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div 
+              class="card card-size rounded-4 p-4" 
+              data-aos="flip-right" 
+              data-aos-easing="ease-out-cubic" 
+              data-aos-duration="1500"
+            >
                 <a href="https://poke-squad.netlify.app/" target="_blank">
                   <img 
                   class="card-img-top img-size rounded-3" 
@@ -263,8 +266,13 @@
               </div>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4 mb-4 aos-init aos-animate" data-aos="zoom-in">
-              <div class="card card-size rounded-4 p-4">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div 
+              class="card card-size rounded-4 p-4" 
+              data-aos="flip-left" 
+              data-aos-easing="ease-out-cubic" 
+              data-aos-duration="1500"
+            >
                 <a href="https://slay.style" target="_blank">
                   <img class="card-img-top img-size rounded-2" 
                   src="https://res.cloudinary.com/dngvjrd0n/image/upload/v1702041825/programming/slaydotstyle_l9cjpz.gif" 
@@ -320,8 +328,13 @@
               </div>
             </div>
             
-            <div class="col-12 col-md-6 col-lg-4 mb-4 aos-init aos-animate" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
-              <div class="card card-size rounded-4">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div 
+                class="card card-size rounded-4" 
+                data-aos="fade-right" 
+                data-aos-easing="ease-out-cubic" 
+                data-aos-duration="1000" 
+              >
                <div class="mobile-card pt-4">
                  <img 
                  class="mobile-view card-img-top img-size" 
@@ -345,12 +358,12 @@
           <br/>
           <br/>
     <!-- ======= Design Showcase ======= -->
-   <div class="section-title" style="padding-bottom: 0;">
+   <div class="section-title" style="padding-bottom: 0;" data-aos="fade-down">
             <h2>Designs</h2>
           </div>
   
           <div class="row">
-            <div class="col-lg-10 mx-auto d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-10 mx-auto d-flex justify-content-center" data-aos="fade-down">
               <ul id="portfolio-flters">
                 <li data-filter="*" class="filter-active">All</li>
                 <li data-filter=".filter-web">Web</li>
@@ -360,7 +373,7 @@
             </div>
           </div>
   
-      <div class="row portfolio-container gallery mx-auto" data-aos="fade-up">
+      <div class="row portfolio-container gallery mx-auto" data-aos="fade-down">
 
             <!-- ======= Web Designs ======= -->
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
