@@ -203,6 +203,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
   border: solid 1px #bdc0c2;
+  background-color: #1d2126;
 }
 
 .nav-menu a:hover,
