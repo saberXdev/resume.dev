@@ -338,6 +338,9 @@ h6 {
 }
 
 .typed {
+  @media (max-width: 1600px) {
+    font-size: 44px;
+  }
   @media (max-width: 800px) {
     font-size: 24px;
   }
@@ -587,6 +590,9 @@ section {
   color: #171d23;
   font-weight: 500;
   background-color: #00ffb4;
+  @media (max-width: 1600px) {
+    font-size: 10px;
+  }
 }
 
 .card-url {
